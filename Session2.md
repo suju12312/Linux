@@ -25,7 +25,7 @@ ping www.google.com
 
 Program ----> store in storage (hard disk)----> when execute ---> load in Ram (main memeory) -----> (PROCESS) -----> RUN PROCESS BY CPU 
 - when we do ctrl + c process will removed 
-- but when we do ctrl + az it did not remove in ram but pause there .
+- but when we do ctrl + z it did not remove in ram but pause there .
 - to check ram ---> free / free -m (give output in megabytes (mb)).
 - jobs ( to see paused program)
 - fg
@@ -43,7 +43,7 @@ task: 5 commands of gui from rhel 9 (like firefox eg)
 whoami ---> root
 useradd tom (new acount is created)
 passwd tom (set ur password)
-Linux is Multi-user O.S (SCREEN (Virtual TERMINAL(vt) ) -----> LOGIN ----> MULTI-USWR O.S)
+Linux is Multi-user O.S (SCREEN (Virtual TERMINAL(vt) ) -----> LOGIN ----> MULTI-USER O.S)
 shortcut : left ctrl +alt + f? 1 to 6 ( to open vt)
 f2 --> give gui
 f3 to f6 ---> give cli
@@ -61,5 +61,6 @@ date +%m
 date +%M
 date +%r
 task : certain command in linux that figure the way find command thatr showing date timer in real time. (how to check running date or time in linux terminal)
+
 
 
