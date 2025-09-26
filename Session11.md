@@ -60,3 +60,4 @@ sudo -i
 ALL=(ALL)  IP ADDR:(ONLY VIA SSH)
 sudoedit 
 sudo
+vimal 192.1681.2 sudo useradd pop234
