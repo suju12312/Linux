@@ -160,10 +160,24 @@ bwhen we write command behind scene shell is there t run that
 
 if dont want too shell give : /sbin/nologin (after login auomatically u logout)
 
+user ---- admin (root ) 0
+2. non-user 1000-6000 (general user)
+service system --- never login (nologin) 1-999/6001-65535
+
+
+every server run daoemon (program) --- run by some user
+ssh server run by user know sshd user
+apache server run by user kowapache user
+to run  any servicxes no need to logn is kown as daemon
+
+systemctl status httpd -- run by apache user withoiur login --- behind the scene it login
+
+
+ps -aux | grep http
 
 
 
- 
+
 
 
 
